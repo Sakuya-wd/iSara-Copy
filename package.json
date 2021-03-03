@@ -13,7 +13,9 @@
   },
   "lint-staged": {
     "*.js": "eslint --fix --max-warnings 0",
-     "*.css": "stylelint --fix --max-warnings 0"
+    "*.css": "stylelint --fix --max-warnings 0",
+    "*.html": "htmlhint",
+    "*.html": "prettier --write"
   },
   "repository": {
     "type": "git",
