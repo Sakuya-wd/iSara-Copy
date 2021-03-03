@@ -12,7 +12,8 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --fix --max-warnings 0"
+    "*.js": "eslint --fix --max-warnings 0",
+     "*.css": "stylelint --fix --max-warnings 0"
   },
   "repository": {
     "type": "git",
