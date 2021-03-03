@@ -1,0 +1,42 @@
+{
+  "name": "isara-copy",
+  "version": "1.0.0",
+  "description": "## 開発環境",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix --max-warnings 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sakuya-wd/iSara-Copy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sakuya-wd/iSara-Copy/issues"
+  },
+  "homepage": "https://github.com/Sakuya-wd/iSara-Copy#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "htmlhint": "^0.14.2",
+    "husky": "^5.1.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.11.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
