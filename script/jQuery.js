@@ -20,4 +20,22 @@ $('.headerContact a').click(function(){
 
 });
 
+$('.secondSection-fourthParagraph a').click(function(){
+
+  var id = $(this).attr('href');
+  var position = $(id).offset().top;
+  var positionOffset = 70;
+
+  position = position - positionOffset;
+
+  $('html,body').animate({
+
+    'scrollTop' : position
+
+  },500);
+
+  return false;
+
+});
+
 });
