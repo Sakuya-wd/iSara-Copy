@@ -12,9 +12,7 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --fix --max-warnings 0",
-    "*.css": "stylelint --fix --max-warnings 0",
-    "*.html": "prettier --write"
+    "*.js": "eslint --fix --max-warnings 0"
   },
   "repository": {
     "type": "git",

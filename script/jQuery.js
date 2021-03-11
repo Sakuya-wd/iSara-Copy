@@ -1,41 +1,36 @@
+$(function () {
+  /* "お問い合わせ&資料請求はこちら"のボタンをクリックした際にお問い合わせフォームに飛ぶ。 */
+  $(".headerContact a").click(function () {
+    var id = $(this).attr("href");
+    var position = $(id).offset().top;
+    var positionOffset = 70;
 
-$(function(){
+    position = position - positionOffset;
 
-/* "お問い合わせ&資料請求はこちら"のボタンをクリックした際にお問い合わせフォームに飛ぶ。 */
-$('.headerContact a').click(function(){
+    $("html,body").animate(
+      {
+        scrollTop: position,
+      },
+      500
+    );
 
-  var id = $(this).attr('href');
-  var position = $(id).offset().top ;
-  var positionOffset = 70;
+    return false;
+  });
 
-  position = position - positionOffset;
+  $(".secondSection-fourthParagraph a").click(function () {
+    var id = $(this).attr("href");
+    var position = $(id).offset().top;
+    var positionOffset = 70;
 
-  $('html,body').animate({
+    position = position - positionOffset;
 
-    'scrollTop' : position
+    $("html,body").animate(
+      {
+        scrollTop: position,
+      },
+      500
+    );
 
-  },500);
-
-  return false;
-
-});
-
-$('.secondSection-fourthParagraph a').click(function(){
-
-  var id = $(this).attr('href');
-  var position = $(id).offset().top;
-  var positionOffset = 70;
-
-  position = position - positionOffset;
-
-  $('html,body').animate({
-
-    'scrollTop' : position
-
-  },500);
-
-  return false;
-
-});
-
+    return false;
+  });
 });
