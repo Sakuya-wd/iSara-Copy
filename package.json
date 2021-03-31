@@ -14,7 +14,10 @@
   "lint-staged": {
     "*.js": "eslint --fix --max-warnings 0",
     "*.css": "stylelint --fix --max-warnings 0",
-    "*.html": ["htmlhint", "prettier --write"]
+    "*.html": [
+      "htmlhint",
+      "prettier --write"
+    ]
   },
   "repository": {
     "type": "git",
