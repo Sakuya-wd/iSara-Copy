@@ -1,102 +1,100 @@
 /* pc用 */
 
-
 /* ページの余白を調整する */
-*{
+* {
   margin: 0;
-
   padding: 0;
 }
 
-.wrapper{
+.wrapper {
   width: 100%;
 }
 
-.content{
+.content {
   width: 100%;
-  padding: 75px 0px 0px 0px;
+  padding: 75px 0 0 0;
 }
-
 
 /* ヘッダー */
-.header{
+.header {
   position: fixed;
   z-index: 10;
-  background-color:#FFFFFF;
+  background-color: #fff;
   width: 100%;
   height: 75px;
 }
 
-.headerInner{
+.headerInner {
   display: flex;
   width: 1190px;
   margin: auto;
 }
 
-.headerLogo img{
+.headerLogo img {
   width: 128px;
   height: 45px;
-  padding: 14px 0px 0px 11px;
+  padding: 14px 0 0 11px;
 }
 
-.headerTitle p{
-  padding: 34px 0px 0px 6px;
+.headerTitle p {
+  padding: 34px 0 0 6px;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 14px;
   line-height: 22px;
-  color: #333333;
+  color: #333;
   letter-spacing: 0.11em;
 }
 
-.headerLogo-headerTitle-responsive p{
+.headerLogo-headerTitle-responsive p {
   display: none;
 }
 
-.headerLogo-headerTitle-responsive img{
+.headerLogo-headerTitle-responsive img {
   display: none;
 }
 
-.headerContact{
+.headerContact {
   margin-left: auto;
   margin-right: 10px;
-  padding: 26px 0px 0px 0px;
+  padding: 26px 0 0 0;
 }
 
-.headerContact a{
-  background-color: #DA6B64;
+.headerContact a {
+  background-color: #da6b64;
   border-radius: 30px;
   padding: 15px 38px 15px 39px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 14px;
   line-height: 22px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   letter-spacing: 0.11em;
 }
 
-.headerContact a:hover{
+.headerContact a:hover {
   background-color: #d84940;
 }
 
-.headerContact-responsive{
+.headerContact-responsive {
   display: none;
 }
 
-.headerContact-responsive img{
+.headerContact-responsive img {
   display: none;
 }
 
-.headerContact-responsive a{
+.headerContact-responsive a {
   display: none;
 }
-
 
 /* メインコンテンツ */
-.firstSection{
+.firstSection {
   background-image: url("../image/main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,124 +103,129 @@
   height: 500px;
 }
 
-.firstSection-firstParagraph p{
-  padding: 93px 0px 0px 0px;
+.firstSection-firstParagraph p {
+  padding: 93px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 28px;
   line-height: 45px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.05em;
 }
 
-.firstSection-secondParagraph p{
-  padding: 10px 0px 0px 0px;
+.firstSection-secondParagraph p {
+  padding: 10px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 28px;
   line-height: 45px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.05em;
 }
 
-.firstSection-img img{
+.firstSection-img img {
   display: block;
   width: 319px;
   height: 110px;
   margin: auto;
-  padding: 10px 0px 0px 1px;
+  padding: 10px 0 0 1px;
 }
 
-.firstSection-thirdParagraph p{
-  padding: 41px 0px 0px 0px;
+.firstSection-thirdParagraph p {
+  padding: 41px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 22px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.firstSection-fourthParagraph p{
+.firstSection-fourthParagraph p {
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 22px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-
-.secondSection{
+.secondSection {
   position: relative;
-  background-color: #EBB94D;
+  background-color: #ebb94d;
   width: 100%;
   height: 600px;
 }
 
-.secondSection-firstParagraph p{
-  padding: 30px 0px 0px 0px;
+.secondSection-firstParagraph p {
+  padding: 30px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.secondSection-scroll{
+.secondSection-scroll {
   position: absolute;
   right: 120px;
   top: 42px;
 }
 
-.secondSection-scroll a{
+.secondSection-scroll a {
   padding: 23px 25px 23px 25px;
   position: fixed;
   z-index: 10;
   display: none;
-  background-color: #ECECEC;
+  background-color: #ececec;
 }
 
-.secondSection-scroll a::before{
-  content: '';
+.secondSection-scroll a::before {
+  content: "";
   display: block;
   border-top: solid 6px black;
   border-right: solid 6px black;
   height: 14px;
   width: 14px;
   transform: rotate(-45deg);
-  margin: 5px 0px 0px 0px;
+  margin: 5px 0 0 0;
 }
 
-.secondSection-secondParagraph p{
+.secondSection-secondParagraph p {
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.secondSection-thirdParagraph p{
-  background-color: #F9F2F4;
+.secondSection-thirdParagraph p {
+  background-color: #f9f2f4;
   border-radius: 5px;
   width: 462px;
   height: 21px;
   margin: 14px auto auto auto;
-  padding: 0px 0px 5px 0px;
+  padding: 0 0 5px 0;
   font-style: normal;
   font-weight: 600;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -234,304 +237,313 @@
   letter-spacing: 0.08em;
 }
 
-.secondSection-fourthParagraph{
-  padding: 45px 0px 0px 0px;
+.secondSection-fourthParagraph {
+  padding: 45px 0 0 0;
   text-align: center;
 }
 
-.secondSection-fourthParagraph a{
+.secondSection-fourthParagraph a {
   display: block;
   width: 1030px;
   height: 104px;
   margin: auto;
-  background-color: #DA6B64;
+  background-color: #da6b64;
   border-radius: 56px;
   text-decoration: none;
 }
 
-.secondSection-fourthParagraph a:hover{
+.secondSection-fourthParagraph a:hover {
   background-color: #d84940;
 }
 
-.secondSection-fourthParagraph p{
-  padding: 30px 0px 0px 0px;
+.secondSection-fourthParagraph p {
+  padding: 30px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 28px;
   line-height: 45px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.06em;
 }
 
-.secondSection-fourthParagraph-responsive{
+.secondSection-fourthParagraph-responsive {
   display: none;
 }
 
-.secondSection-fourthParagraph-responsive a{
+.secondSection-fourthParagraph-responsive a {
   display: none;
 }
 
-.secondSection-fourthParagraph-responsive p{
+.secondSection-fourthParagraph-responsive p {
   display: none;
 }
 
-.secondSection-fifthParagraph p{
-  padding: 68px 0px 0px 0px;
+.secondSection-fifthParagraph p {
+  padding: 68px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 21px;
   line-height: 34px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.07em;
 }
 
-.secondSection-sixthParagraph p{
-  padding: 32px 0px 0px 0px;
+.secondSection-sixthParagraph p {
+  padding: 32px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 21px;
   line-height: 34px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.07em;
 }
 
-.secondSection-seventhParagraph p{
-  padding: 30px 0px 0px 0px;
+.secondSection-seventhParagraph p {
+  padding: 30px 0 0 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 21px;
   line-height: 34px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.07em;
 }
 
-.secondSection-fifthParagraph-responsive p{
+.secondSection-fifthParagraph-responsive p {
   display: none;
 }
 
-.secondSection-sixthParagraph-responsive p{
+.secondSection-sixthParagraph-responsive p {
   display: none;
 }
 
-.secondSection-seventhParagraph-responsive p{
+.secondSection-seventhParagraph-responsive p {
   display: none;
 }
 
-.secondSection-link{
+.secondSection-link {
   display: flex;
   width: 250px;
   height: 50px;
   margin: auto;
-  padding: 18px 0px 0px 5px;
+  padding: 18px 0 0 5px;
 }
 
-
-.thirdSection-firstBr{
+.thirdSection-firstBr {
   display: none;
 }
 
-.thirdSection-secondBr{
+.thirdSection-secondBr {
   display: none;
 }
 
-.thirdSection{
+.thirdSection {
   background-image: url("../image/introbottom.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 507px;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0 40px 0;
 }
 
-.thirdSection-firstParagraph{
+.thirdSection-firstParagraph {
   width: 860px;
-  margin: 0px auto;
-  padding: 15px 0px 15px 0px;
+  margin: 0 auto;
+  padding: 15px 0 15px 0;
   position: relative;
 }
 
-.thirdSection-firstParagraph p{
-  padding: 21px 2px 9px 0px;
+.thirdSection-firstParagraph p {
+  padding: 21px 2px 9px 0;
   font-style: normal;
   font-weight: 600;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 28px;
   line-height: 40px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.05em;
 }
 
-.thirdSection-firstParagraph-responsive p{
+.thirdSection-firstParagraph-responsive p {
   display: none;
 }
 
-.thirdSection-firstParagraph ::before{
+.thirdSection-firstParagraph ::before {
   position: absolute;
-  content:'';
+  content: "";
   left: 0;
   top: 0;
-  border-left: solid 4px #EBB94D;
-  border-top: solid 4px #EBB94D;
+  border-left: solid 4px #ebb94d;
+  border-top: solid 4px #ebb94d;
   width: 46px;
   height: 46px;
 }
 
-.thirdSection-firstParagraph ::after{
+.thirdSection-firstParagraph ::after {
   position: absolute;
-  content:'';
+  content: "";
   right: 0;
   bottom: 0;
-  border-right: solid 4px #EBB94D;
-  border-bottom: solid 4px #EBB94D;
+  border-right: solid 4px #ebb94d;
+  border-bottom: solid 4px #ebb94d;
   width: 46px;
   height: 46px;
 }
 
-.thirdSection-firstParagraph-responsive ::before{
+.thirdSection-firstParagraph-responsive ::before {
   display: none;
 }
 
-.thirdSection-firstParagraph-responsive ::after{
+.thirdSection-firstParagraph-responsive ::after {
   display: none;
 }
 
-.thirdSection-secondParagraph p{
-  padding: 40px 0px 0px 1px;
+.thirdSection-secondParagraph p {
+  padding: 40px 0 0 1px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.07em;
 }
 
-.thirdSection-thirdParagraph p{
-  padding: 0px 0px 0px 2px;
+.thirdSection-thirdParagraph p {
+  padding: 0 0 0 2px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.thirdSection-secondParagraph-thirdParagraph-responsive p{
+.thirdSection-secondParagraph-thirdParagraph-responsive p {
   display: none;
 }
 
-.thirdSection-fourthParagraph p{
-  padding: 24px 3px 0px 0px;
+.thirdSection-fourthParagraph p {
+  padding: 24px 3px 0 0;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.thirdSection-fifthParagraph p{
-  padding: 0px 0px 0px 3px;
+.thirdSection-fifthParagraph p {
+  padding: 0 0 0 3px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.thirdSection-fourthParagraph-fifthParagraph-responsive p{
+.thirdSection-fourthParagraph-fifthParagraph-responsive p {
   display: none;
 }
 
-.thirdSection-sixthParagraph p{
-  padding: 0px 0px 0px 4px;
+.thirdSection-sixthParagraph p {
+  padding: 0 0 0 4px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.thirdSection-sixthParagraph-responsive p{
+.thirdSection-sixthParagraph-responsive p {
   display: none;
 }
 
-.thirdSection-seventhParagraph p{
-  padding: 24px 0px 0px 2px;
+.thirdSection-seventhParagraph p {
+  padding: 24px 0 0 2px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.thirdSection-eighthParagraph p{
-  padding: 0px 0px 0px 2px;
+.thirdSection-eighthParagraph p {
+  padding: 0 0 0 2px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Hiragino Kaku Gothic Pro";
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
+    sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #333333;
+  color: #333;
   text-align: center;
   letter-spacing: 0.08em;
 }
 
-.thirdSection-seventhParagraph-eighthParagraph-responsive p{
+.thirdSection-seventhParagraph-eighthParagraph-responsive p {
   display: none;
 }
 
-.thirdSection-eighthParagraph span{
-  background: linear-gradient(transparent 70%, #EBB94D 0);
+.thirdSection-eighthParagraph span {
+  background: linear-gradient(transparent 70%, #ebb94d 0);
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
 }
 
-.thirdSection-seventhParagraph-eighthParagraph-responsive span{
+.thirdSection-seventhParagraph-eighthParagraph-responsive span {
   display: none;
 }
 
-.thirdSection-ninthParagraph{
+.thirdSection-ninthParagraph {
   position: relative;
   z-index: 9;
-  background-color: #EBB94D;
+  background-color: #ebb94d;
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  margin:  95px auto auto auto;
+  margin: 95px auto auto auto;
 }
 
-.thirdSection-ninthParagraph p{
-  padding: 1px 0px 0px 0px;
+.thirdSection-ninthParagraph p {
+  padding: 1px 0 0 0;
   font-size: 14px;
   line-height: 80px;
   text-align: center;
   color: white;
   letter-spacing: 2px;
 }
-
-

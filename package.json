@@ -13,7 +13,8 @@
   },
   "lint-staged": {
     "*.js": "eslint --fix --max-warnings 0",
-    "*.css": "stylelint --fix --max-warnings 0"
+    "*.css": "stylelint --fix --max-warnings 0",
+    "*.html": ["htmlhint", "prettier --write"]
   },
   "repository": {
     "type": "git",
@@ -26,11 +27,17 @@
   },
   "homepage": "https://github.com/Sakuya-wd/iSara-Copy#readme",
   "dependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-jquery": "^3.0.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "htmlhint": "^0.14.2",
     "husky": "^4.3.0",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "stylelint": "^13.12.0",
     "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.3.0",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-prettier": "^1.2.0"
   },
