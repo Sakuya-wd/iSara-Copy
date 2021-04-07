@@ -204,24 +204,12 @@
     padding: 36px 0 24px 0;
   }
 
-  .fourthSection-firstParagraph p::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    border-left: solid 4px #ebb94d;
-    border-top: solid 4px #ebb94d;
-    width: 45px;
-    height: 45px;
-  }
-
   .fourthSection-firstParagraph p {
     font-size: 24px;
   }
 
   .fourthSection-secondParagraph p {
     padding: 40px 1px 30px 0;
-    font-style: normal;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.09em;
@@ -240,7 +228,6 @@
   }
 
   .fourthSection-firstBox {
-    display: inline-block;
     padding: 21px 10px 10px 10px;
   }
 
@@ -297,8 +284,8 @@
   }
 
   .fourthSection-firstBox {
-    margin: 10px 0 0 0;
     padding: 10px;
+    margin: 10px 0 0 0;
   }
 
   .fourthSection-firstBox p {
@@ -306,8 +293,8 @@
   }
 
   .fourthSection-secondBox {
-    margin: 10px 0 0 0;
     padding: 10px;
+    margin: 10px 0 0 0;
   }
 
   .fourthSection-secondBox p {
@@ -315,8 +302,8 @@
   }
 
   .fourthSection-thirdBox {
-    margin: 10px 0 0 0;
     padding: 10px;
+    margin: 10px 0 0 0;
   }
 
   .fourthSection-thirdBox p {
@@ -324,8 +311,8 @@
   }
 
   .fourthSection-fourthBox {
-    margin: 10px 0 0 0;
     padding: 10px;
+    margin: 10px 0 0 0;
   }
 
   .fourthSection-fourthBox p {
@@ -333,8 +320,8 @@
   }
 
   .fourthSection-fifthBox {
-    margin: 12px 36px 0 34px;
     padding: 10px;
+    margin: 12px 36px 0 34px;
   }
 
   .fourthSection-fifthBox p {
@@ -448,7 +435,6 @@
   }
 
   .secondSection {
-    width: 100%;
     height: 510px;
   }
 
@@ -563,7 +549,6 @@
   .thirdSection {
     height: 609px;
     padding: 30px 0;
-    background-image: url("../image/introbottom.jpg");
     background-position: center bottom;
     background-size: contain;
   }
@@ -573,6 +558,10 @@
   }
 
   .thirdSection-firstParagraph {
+    display: none;
+  }
+
+  .thirdSection-firstParagraph p {
     display: none;
   }
 
@@ -599,10 +588,6 @@
     max-width: calc(100% - 40px);
     padding: 15px 0;
     margin: 0 auto;
-  }
-
-  .thirdSection-firstParagraph p {
-    display: none;
   }
 
   .thirdSection-firstParagraph-responsive p {
@@ -746,33 +731,20 @@
     padding: 60px 0 0 0;
   }
 
-  .fourthSection-firstParagraph {
-    padding: 30px 0 20px 0;
-  }
-
-  .fourthSection-firstParagraph p::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    border-left: solid 4px #ebb94d;
-    border-top: solid 4px #ebb94d;
+  .fourthSection-firstParagraph ::before {
     width: 25px;
     height: 25px;
   }
 
-  .fourthSection-firstParagraph p {
-    padding: 0 0 0 1px;
-    line-height: 40px;
+  .fourthSection-firstParagraph {
+    padding: 30px 0 20px 0;
   }
 
-  .fourthSection-firstParagraph p::after {
-    position: absolute;
-    content: "";
-    right: 0;
-    bottom: 0;
-    border-right: solid 4px #ebb94d;
-    border-bottom: solid 4px #ebb94d;
+  .fourthSection-firstParagraph p {
+    padding: 0 0 0 1px;
+  }
+
+  .fourthSection-firstParagraph ::after {
     width: 25px;
     height: 25px;
   }
@@ -784,11 +756,11 @@
   .fourthSection-secondParagraph-responsive p {
     display: block;
     padding: 14px 0 28px 0;
-    font-style: normal;
-    font-weight: 600;
     font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
       sans-serif;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
     line-height: 26px;
     color: #333;
     text-align: center;
@@ -806,11 +778,11 @@
   .fourthSection-thirdParagraph-responsive p {
     display: block;
     padding: 9px 3px 0 0;
-    font-style: normal;
-    font-weight: 600;
     font-family: "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic",
       sans-serif;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
     line-height: 26px;
     color: #333;
     text-align: center;
@@ -880,8 +852,8 @@
   }
 
   .fourthSection-fifthBox {
-    margin: 0;
     padding: 5px;
+    margin: 0;
   }
 
   .fourthSection-fifthBox img {
@@ -946,7 +918,6 @@
   .firstSection-fourthParagraph p {
     font-size: 15px;
     line-height: 17px;
-    letter-spacing: 0.09em;
   }
 
   .secondSection-firstParagraph p {
@@ -1082,8 +1053,6 @@
   }
 
   .fourthSection-fourthBox img {
-    width: auto;
-    height: 30px;
     padding: 0 0 3px 3px;
   }
 
@@ -1119,8 +1088,8 @@
   }
 
   .fourthSection-firstBox {
-    margin: 0;
     padding: 5px 5px 5px 6px;
+    margin: 0;
   }
 
   .fourthSection-firstBox img {
@@ -1133,8 +1102,8 @@
   }
 
   .fourthSection-secondBox {
-    margin: 0;
     padding: 5px 5px 5px 6px;
+    margin: 0;
   }
 
   .fourthSection-secondBox img {
@@ -1147,8 +1116,8 @@
   }
 
   .fourthSection-thirdBox {
-    margin: 0;
     padding: 5px 5px 5px 6px;
+    margin: 0;
   }
 
   .fourthSection-thirdBox img {
@@ -1161,8 +1130,8 @@
   }
 
   .fourthSection-fourthBox {
-    margin: 0;
     padding: 5px 5px 5px 6px;
+    margin: 0;
   }
 
   .fourthSection-fourthBox img {
