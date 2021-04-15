@@ -13,9 +13,9 @@
   },
   "lint-staged": {
     "jQuery.js": "eslint --fix --max-warnings 0",
-    "style.css": "stylelint --fix --max-warnings 0",
-    "responsive.css": "stylelint --fix --max-warnings 0",
-    "index.html": [
+    "*.css": "stylelint --fix --max-warnings 0",
+    "*.scss": "stylelint --fix --max-warnings 0",
+    "*.html": [
       "htmlhint",
       "prettier --write"
     ]
@@ -38,6 +38,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
     "htmlhint": "^0.14.2",
     "husky": "^4.3.0",
     "lint-staged": "^10.5.4",
@@ -46,8 +47,10 @@
     "stylelint": "^13.12.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recess-order": "^2.3.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-standard": "^21.0.0",
-    "stylelint-prettier": "^1.2.0"
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.19.0"
   },
   "devDependencies": {}
 }
