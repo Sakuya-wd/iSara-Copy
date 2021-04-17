@@ -2,11 +2,15 @@ const gulp = require("gulp");
 const sass = require("gulp-sass");
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
+const sourcemaps = require("gulp-sourcemaps");
 const cleanCSS = require("gulp-clean-css");
 const rename = require("gulp-rename");
 
 const sassCompile = () => {
   return gulp.src("sass/*.scss")
+
+    .pipe(sourcemaps.init())
+
     //scssをcssに変換を行う。
     .pipe(sass({
       outputStyle: "expanded"
@@ -28,6 +32,8 @@ const sassCompile = () => {
     .pipe(rename({
       extname: ".min.css"
     }))
+
+    .pipe(sourcemaps.write("./")) 
 
     .pipe(gulp.dest("css"));
 }
