@@ -17,7 +17,9 @@ const sassCompile = () => {
       outputStyle: "expanded"
     }))
 
-    //ベンダープレフィックスの付与削除をする。
+    //ベンダープレフィックスの付与削除を行う。
+    //デフォルト設定のため、シェア率1%以上のブラウザ,
+    //最新の2バージョンのブラウザ, Firefox ESR版に対応する。 
     .pipe(postcss([
       autoprefixer({
         cascade: false
