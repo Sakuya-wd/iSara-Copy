@@ -2,47 +2,92 @@ const gulp = require("gulp");
 const sass = require("gulp-sass");
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
-const sourcemaps = require("gulp-sourcemaps");
+const htmlmin = require("gulp-htmlmin");
 const cleanCSS = require("gulp-clean-css");
+const uglify = require("gulp-uglify")
 const rename = require("gulp-rename");
 
 const sassCompile = () => {
-  return gulp.src("sass/*.scss")
+  return gulp.src("sass/*.scss",{
+    sourcemaps: true
+  })
 
-    .pipe(sourcemaps.init())
-
-    //scssをcssに変換を行う。
+    //scssをcssに変換する。
     .pipe(sass({
       outputStyle: "expanded"
     }))
 
-    //ベンダープレフィックスの付与削除を行う。
-    //デフォルト設定のため、シェア率1%以上のブラウザ,
-    //最新の2バージョンのブラウザ, Firefox ESR版に対応する。
+    //ベンダープレフィックスの付与削除をする。
     .pipe(postcss([
       autoprefixer({
         cascade: false
       })
     ]))
     
-    //cssの圧縮を行う。
+    //cssを圧縮する。
     .pipe(cleanCSS())
 
-    //圧縮ファイルの拡張子を.min.cssに変換を行う。
+    //圧縮ファイルの拡張子を.min.cssに変換する。
     .pipe(rename({
       extname: ".min.css"
     }))
+    
+    //cssディレクトリに出力する。
+    .pipe(gulp.dest("css",{
+      sourcemaps: "./" 
+    }));
+}
 
-    .pipe(sourcemaps.write("./")) 
+const htmlCompressor = () =>{
+  return gulp.src("./index.html",{
+       sourcemaps: true
+  })
 
-    .pipe(gulp.dest("css"));
+    //htmlを圧縮する。
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      removeComments: true
+    }))
+   
+    //圧縮ファイルの拡張子を.min.htmlに変換する。
+    .pipe(rename({
+      extname: ".min.html"
+    }))
+
+    //index.htmlと同じディレクトリに出力する。 
+    .pipe(gulp.dest("./",{
+      sourcemaps: "./"
+    }));
+}
+
+const javascriptCompressor = () =>{
+  return gulp.src("script/jQuery.js",{
+       sourcemaps: true
+  })
+
+    //javaScriptを圧縮する。
+    .pipe(uglify())
+   
+    //圧縮ファイルの拡張子を.min.jsに変換する。
+    .pipe(rename({
+      extname: ".min.js"
+    }))
+ 
+    //jQuery.jsと同じディレクトリに出力する。 
+    .pipe(gulp.dest("script",{
+      sourcemaps: "./"
+    }));
 }
 
 const watch = (done) => {
-  //scssに変更がある時、自動でsassCompile関数の処理を行う。
-  gulp.watch("sass/*.scss", gulp.task("sassCompile"));
+  //scssに変更がある時、自動でsassCompile関数の処理をする。
+  gulp.watch("sass/*.scss", sassCompile);
+  gulp.watch("index.html", htmlCompressor);
+  gulp.watch("script/jQuery.js", javascriptCompressor); 
   done();
 }
 
-exports.default = sassCompile;
-exports.watch = watch;
+exports.sass = sassCompile;
+exports.html = htmlCompressor;
+exports.js = javascriptCompressor;
+exports.default = watch;
