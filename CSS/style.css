@@ -1,3 +1,6 @@
+/* pc用 */
+
+
 /* ページの余白を調整する */
 *{
   margin: 0;
@@ -47,6 +50,14 @@
   letter-spacing: 0.11em;
 }
 
+.headerLogo-headerTitle-responsive p{
+  display: none;
+}
+
+.headerLogo-headerTitle-responsive img{
+  display: none;
+}
+
 .headerContact{
   margin-left: auto;
   margin-right: 10px;
@@ -69,4 +80,16 @@
 
 .headerContact a:hover{
   background-color: #d84940;
+}
+
+.headerContact-responsive{
+  display: none;
+}
+
+.headerContact-responsive img{
+  display: none;
+}
+
+.headerContact-responsive a{
+  display: none;
 }

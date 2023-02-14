@@ -1,0 +1,155 @@
+/* タブレット・スマホ用 */
+
+
+
+/* widthが1190px以下の表示 */
+@media (max-width: 1190px){
+
+  /* ヘッダー */
+  .headerInner{
+    display: flex;
+    width: 100%;
+  }
+
+  .headerTitle p{
+    padding: 36px 0px 0px 6px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    color: #333333;
+    letter-spacing: 0.001em;
+  }
+      
+  .headerContact{
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 23px 0px 0px 0px;
+  }
+      
+  .headerContact a{
+    background-color: #DA6B64;
+    border-radius: 30px;
+    padding: 15px 40px 15px 39px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+  }
+
+  .headerContact a:hover{
+    background-color: #d84940;
+  }
+
+}
+
+
+/* widthが768px以下の表示 */
+@media (max-width: 768px){
+
+  /* ページの余白を調整する */
+  .content{
+    width: 100%;
+    padding: 60px 0px 0px 0px;
+  }
+  
+  /* ヘッダー */
+  .header{
+    height: 63px;
+  }
+
+
+  .headerLogo img{
+    display: none;
+  }
+  
+  .headerTitle p{
+    display: none;
+  }
+
+  .headerLogo-headerTitle-responsive p{
+    display: block;
+    padding: 7px 0px 0px 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    color: #333333;
+    letter-spacing: 0.004em;
+  }
+
+  .headerLogo-headerTitle-responsive img{
+    display: block;
+    width: 90px;
+    height: 28px;
+    padding: 0px 0px 0px 10px;
+  }
+      
+  .headerContact{
+    display: none;
+  }
+
+  .headerContact a{
+    display: none;
+  }
+
+  .headerContact-responsive{
+    display: block; 
+    background-color: #DA6B64;
+    width: 75px;
+    height: 63px;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .headerContact-responsive img{
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+    height: 25px;
+    padding: 8px 2px 0px 0px;
+  }
+
+  .headerContact-responsive a{
+    display: block;
+    padding: 1px 2px 0px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+  }
+
+  .headerContact-responsive a:hover{
+    text-decoration: underline;
+  }
+
+}
+  
+
+/* widthが767px以下の表示 */
+@media (max-width: 767px){
+
+  /* ヘッダー */
+  .headerLogo-headerTitle-responsive p{
+    display: block;
+    padding: 7px 0px 3px 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 10px;
+    line-height: 16px;
+    color: #333333;
+    letter-spacing: 0.004em;
+  }
+
+}
