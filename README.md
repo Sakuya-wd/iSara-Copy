@@ -4,3 +4,6 @@
 
 iSara(https://isara.life/)
 
+## ライセンス
+
+[MIT](./LICENSE)
