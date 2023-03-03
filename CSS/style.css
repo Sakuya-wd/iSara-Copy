@@ -342,3 +342,206 @@
   padding: 18px 0px 0px 5px;
 }
 
+
+.thirdSection-firstBr{
+  display: none;
+}
+
+.thirdSection-secondBr{
+  display: none;
+}
+
+.thirdSection{
+  background-image: url("../image/introbottom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 507px;
+  padding: 40px 0px 40px 0px;
+}
+
+.thirdSection-firstParagraph{
+  width: 860px;
+  margin: 0px auto;
+  padding: 15px 0px 15px 0px;
+  position: relative;
+}
+
+.thirdSection-firstParagraph p{
+  padding: 21px 2px 9px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 28px;
+  line-height: 40px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.thirdSection-firstParagraph-responsive p{
+  display: none;
+}
+
+.thirdSection-firstParagraph ::before{
+  position: absolute;
+  content:'';
+  left: 0px;
+  top: 0px;
+  border-left: solid 4px #EBB94D;
+  border-top: solid 4px #EBB94D;
+  width: 46px;
+  height: 46px;
+}
+
+.thirdSection-firstParagraph ::after{
+  position: absolute;
+  content:'';
+  right: 0px;
+  bottom: 0px;
+  border-right: solid 4px #EBB94D;
+  border-bottom: solid 4px #EBB94D;
+  width: 46px;
+  height: 46px;
+}
+
+.thirdSection-firstParagraph-responsive ::before{
+  display: none;
+}
+
+.thirdSection-firstParagraph-responsive ::after{
+  display: none;
+}
+
+.thirdSection-secondParagraph p{
+  padding: 40px 0px 0px 1px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+
+.thirdSection-thirdParagraph p{
+  padding: 0px 0px 0px 2px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.thirdSection-secondParagraph-thirdParagraph-responsive p{
+  display: none;
+}
+
+.thirdSection-fourthParagraph p{
+  padding: 24px 3px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.thirdSection-fifthParagraph p{
+  padding: 0px 0px 0px 3px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.thirdSection-fourthParagraph-fifthParagraph-responsive p{
+  display: none;
+}
+
+.thirdSection-sixthParagraph p{
+  padding: 0px 0px 0px 4px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.thirdSection-sixthParagraph-responsive p{
+  display: none;
+}
+
+.thirdSection-seventhParagraph p{
+  padding: 24px 0px 0px 2px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.thirdSection-eighthParagraph p{
+  padding: 0px 0px 0px 2px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+.thirdSection-seventhParagraph-eighthParagraph-responsive p{
+  display: none;
+}
+
+.thirdSection-eighthParagraph span{
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(transparent 70%, #EBB94D 0);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.thirdSection-seventhParagraph-eighthParagraph-responsive span{
+  display: none;
+}
+
+.thirdSection-ninthParagraph{
+  position: relative;
+  z-index: 9;
+  background-color: #EBB94D;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 95px;
+}
+
+.thirdSection-ninthParagraph p{
+  padding: 1px 0px 0px 0px;
+  font-size: 14px;
+  line-height: 80px;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
