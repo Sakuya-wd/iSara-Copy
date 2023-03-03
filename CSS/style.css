@@ -984,3 +984,83 @@
 .sixthSection-firstParagraph-responsive span{
   display: none;
 }
+
+
+.tenthSection{
+  background-color: #EBB94D;
+  width: 100%;
+  height: 230px;
+  padding: 40px 0px 0px 0px;
+}
+
+.tenthSection-firstParagraph{
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 0px auto 0px auto;
+}
+
+.tenthSection-firstParagraph p{
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 14px;
+  line-height: 80px;
+  text-align: center;
+  color: #EBB94D;
+  letter-spacing: 0.07em;
+}
+
+.tenthSection-secondParagraph{
+  position: relative;
+  width: 860px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.tenthSection-secondParagraph p{
+  padding: 15px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.tenthSection-secondParagraph ::before{
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: 0px;
+  border-left: solid 4px #ffffff;
+  border-top: solid 4px #ffffff;
+  width: 45px;
+  height: 45px;
+}
+
+.tenthSection-secondParagraph ::after{
+  position: absolute;
+  content: '';
+  right: 0px;
+  bottom: 0px;
+  border-right: solid 4px #ffffff;
+  border-bottom: solid 4px #ffffff;
+  width: 45px;
+  height: 45px;
+}
+
+.tenthSection-div{
+ position: relative;
+  z-index: 9;
+  width: 0;
+  height: 0;
+  margin: 40px auto 0px auto;
+  border-left: solid 25px transparent;
+  border-top: solid 25px #EBB94D;
+  border-right: solid 25px transparent;
+  border-bottom: solid 25px transparent;
+}
