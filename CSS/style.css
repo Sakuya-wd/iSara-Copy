@@ -1197,3 +1197,22 @@
   border-bottom: 1px dotted #e5e5e5;
   list-style: none;
 }
+
+
+.thirteenthSection{
+  background-color: #006EA9;
+  width: 100%;
+  padding: 40px 0px 40px 0px;
+}
+
+.thirteenthSection-firstParagraph p{
+  padding: 0px 1px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.07em;
+}

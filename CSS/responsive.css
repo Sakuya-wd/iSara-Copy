@@ -1247,6 +1247,25 @@
     list-style: none;
   }
 
+
+  .thirteenthSection{
+    background-color: #006EA9;
+    width: 100%;
+    padding: 39px 0px 39px 0px;
+  }
+  
+  .thirteenthSection-firstParagraph p{
+    padding: 0px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.09em;
+  }
+
 }
 
 
@@ -2674,6 +2693,25 @@
     list-style: none;
   }
 
+
+  .thirteenthSection{
+    background-color: #006EA9;
+    width: 100%;
+    padding: 18px 0px 18px 0px;
+  }
+  
+  .thirteenthSection-firstParagraph p{
+    padding: 0px 0px 0px 3px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.09em;
+  }
+
 }
 
 
@@ -3688,6 +3726,26 @@
     border-bottom: 1px dotted #e5e5e5;
     list-style: none;
   }
+
+
+  .thirteenthSection{
+    background-color: #006EA9;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+  
+  .thirteenthSection-firstParagraph p{
+    padding: 0px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+  }
+
 
 }
 
