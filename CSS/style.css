@@ -2872,3 +2872,73 @@
   color: #333333;
   letter-spacing: 0.093em;
 }
+
+
+.footor {
+  background-color: #ECECEC;
+  width: 100%;
+  height: 180px;
+}
+
+.footor-firstParagraph p {
+  padding: 41px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 10px;
+  line-height: 16px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.footor-secondParagraph p {
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 10px;
+  line-height: 16px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.footor-secondParagraph a {
+  color: #3A7EB9;
+  text-decoration: none;
+}
+
+.footor-secondParagraph a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+.footor-link {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  padding: 5px 0px 0px 4px;
+}
+
+.footor-thirdParagraph p {
+  padding: 10px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 10px;
+  line-height: 16px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.footor-thirdParagraph a {
+  color: #3A7EB9;
+  text-decoration: none;
+}
+
+.footor-thirdParagraph a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
