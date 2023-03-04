@@ -1266,6 +1266,88 @@
     letter-spacing: 0.09em;
   }
 
+
+  .fifteenthSection-firstBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.7em 0px;
+  }
+  
+  .fifteenthSection-secondBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.7em 0px;
+  }
+  
+  .fifteenthSection-thirdBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.8em 0px;
+  }
+  
+  .fifteenthSection{
+    background-image: url("../image/bangkokbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 48px 40px;
+  }
+  
+  .fifteenthSection-inner{
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .fifteenthSection-firstParagraph p{
+    padding: 13px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.13em;
+  }
+  
+  .fifteenthSection-secondParagraph p{
+    padding: 20px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.006em;
+  }
+  
+  .fifteenthSection-thirdParagraph p{
+    padding: 18px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.11em;
+  }
+  
+  .fifteenthSection-fourthParagraph p{
+    padding: 19px 0px 0px 1px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.09em;
+  }
+  
 }
 
 
@@ -2712,6 +2794,89 @@
     letter-spacing: 0.09em;
   }
 
+
+  .fifteenthSection-firstBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.7em 0px;
+  }
+  
+  .fifteenthSection-secondBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.7em 0px;
+  }
+  
+  .fifteenthSection-thirdBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.8em 0px;
+  }
+  
+  .fifteenthSection{
+    background-image: url("../image/bangkokbgsp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 49px 40px;
+  }
+  
+  .fifteenthSection-inner{
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  .fifteenthSection-firstParagraph p{
+    padding: 12px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.13em;
+  }
+  
+  .fifteenthSection-secondParagraph p{
+    padding: 20px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.008em;
+  }
+  
+  .fifteenthSection-thirdParagraph p{
+    padding: 19px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.11em;
+  }
+  
+  .fifteenthSection-fourthParagraph p{
+    padding: 19px 0px 0px 1px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.09em;
+  }
+
+
 }
 
 
@@ -3742,6 +3907,87 @@
     font-size: 15px;
     line-height: 24px;
     text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+  }
+
+  
+  .fifteenthSection-firstBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.9em 0px;
+  }
+  
+  .fifteenthSection-secondBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.8em 0px;
+  }
+  
+  .fifteenthSection-thirdBr{
+    display: block;
+    content: '';
+    margin: 0px 0px 0.9em 0px;
+  }
+  
+  .fifteenthSection{
+    background-image: url("../image/bangkokbgsp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    padding: 30px 15px;
+  }
+  
+  .fifteenthSection-inner{
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+  
+  .fifteenthSection-firstParagraph p{
+    padding: 12px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 0.13em;
+  }
+  
+  .fifteenthSection-secondParagraph p{
+    padding: 19px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.004em;
+  }
+  
+  .fifteenthSection-thirdParagraph p{
+    padding: 19px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+    color: #ffffff;
+    letter-spacing: 0.13em;
+  }
+  
+  .fifteenthSection-fourthParagraph p{
+    padding: 19px 0px 0px 1px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
     color: #ffffff;
     letter-spacing: 0.1em;
   }
