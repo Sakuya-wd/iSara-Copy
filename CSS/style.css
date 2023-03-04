@@ -1064,3 +1064,136 @@
   border-right: solid 25px transparent;
   border-bottom: solid 25px transparent;
 }
+
+
+.twelfthSection{
+  background-image: url("../image/classbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+
+.twelfthSection-firstParagraph p{
+  padding: 60px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+.twelfthSection-secondParagraph p{
+  padding: 9px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.09em;
+}
+
+.twelfthSection-inner{
+  display: flex;
+  flex-direction: row;
+  width: 780px;
+  margin: 50px auto 0 auto;
+}
+
+.twelfthSection-firstList{
+  width: 50%;
+  padding: 0px 15px 0px 0px;
+  box-sizing: border-box;
+}
+
+.twelfthSection-thirdParagraph{
+  border-left: solid 2px #006EA9;
+  border-top: solid 2px #006EA9;
+  border-right: solid 2px #006EA9;
+  border-bottom: solid 2px #006EA9;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+
+.twelfthSection-thirdParagraph p{
+  background-color: #006EA9;
+  margin: 0px 0px 10px 0px;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.08em;
+}
+
+.twelfthSection-thirdParagraph ul{
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 0.1em;
+}
+
+.twelfthSection-thirdParagraph ul li{
+  padding: 10px;
+  border-bottom: 1px dotted #e5e5e5;
+  list-style: none;
+}
+
+.twelfthSection-secondList{
+  width: 50%;
+  padding: 0px 0px 0px 15px;
+  box-sizing: border-box;
+}
+
+.twelfthSection-fourthParagraph{
+  border-left: solid 2px #006EA9;
+  border-top: solid 2px #006EA9;
+  border-right: solid 2px #006EA9;
+  border-bottom: solid 2px #006EA9;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+
+.twelfthSection-fourthParagraph p{
+  background-color: #006EA9;
+  margin: 0px 0px 10px 0px;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.08em;
+}
+
+.twelfthSection-fourthParagraph ul{
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 0.1em;
+}
+
+.twelfthSection-fourthParagraph ul li{
+  padding: 10px;
+  border-bottom: 1px dotted #e5e5e5;
+  list-style: none;
+}
