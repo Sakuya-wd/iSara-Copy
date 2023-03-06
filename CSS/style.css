@@ -1935,6 +1935,127 @@
   letter-spacing: 0.07em;
 }
 
+/*
+.sixteenthSection{
+  background-color: #F7C23C;
+  width: 100%;
+  height: 650px;
+}
+
+.sixteenthSection-firstParagraph i{
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.sixteenthSection-firstParagraph p{
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.sixteenthSection-secondParagraph{
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.sixteenthSection-secondParagraph span{
+  color: white;
+}
+
+.sixteenthSection-firstList{
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.sixteenthSection-firstList::before{
+  content: '';
+  position: absolute;
+  border-left: solid 2px white;
+  border-top: solid 2px white;
+  width: 180px;
+  height: 370px;
+}
+
+.sixteenthSection-firstList::after{
+  content: '';
+  position: absolute;
+  border-right: solid 2px white;
+  border-top: solid 2px white;
+  width: 180px;
+  height: 370px;
+}
+
+.sixteenthSection-thirdParagraph::before{
+  content: '';
+  position: absolute;
+  border-bottom: solid 2px white;
+  width: 1010px;
+}
+
+.sixteenthSection-secondtList{
+  background-color: white;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+
+.sixteenthSection-fourthParagraph{
+  font-size: 23px;
+  color: #F7C23C;
+}
+
+.sixteenthSection-fifthParagraph{
+  font-size: 16px;
+  font-weight: black;
+  color: black;
+  text-align: center;
+}
+
+.sixteenthSection-thirdList{
+  background-color: white;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+
+.sixteenthSection-sixthParagraph{
+  font-size: 23px;
+  color: #F7C23C;
+}
+
+.sixteenthSection-seventhParagraph{
+  font-size: 16px;
+  font-weight: black;
+  color: black;
+  text-align: center;
+}
+
+.sixteenthSection-fourthList{
+  background-color: white;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+
+.sixteenthSection-eighthParagraph{
+  font-size: 23px;
+  color: #F7C23C;
+}
+
+.sixteenthSection-ninthParagraph{
+  font-size: 16px;
+  font-weight: black;
+  color: black;
+  text-align: center;
+}
+*/
 
 .seventeenthSection {
   background-image: url("../image/specialdetail.jpg");
