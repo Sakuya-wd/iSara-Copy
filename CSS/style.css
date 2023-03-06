@@ -1216,6 +1216,149 @@
 }
 */
 
+/*
+.ninthSection{
+  height: 1450px;
+  width: 100%;
+}
+
+.ninthSection-firstImg{
+  object-position: center center;
+  object-fit: cover;
+}
+
+.ninthSection-firstParagraph{
+  font-size: 26px;
+  color: white;
+}
+
+.ninthSection-firstParagraph p{
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.ninthSection-secondParagraph{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.ninthSection-secondImg{
+ border-radius: 50%;
+}
+
+.ninthSection-thirdImg2{
+ border-radius: 50%;
+}
+
+.ninthSection-secondImg::before{
+ content: '';
+ right: 740px;
+ bottom: 660px;
+ border-left: solid 3px white;
+ border-top: solid 3px white;
+ border-right: solid 3px white;
+ border-bottom: solid 3px white;
+}
+
+.ninthSection-thirdImg2::before{
+ content: '';
+ right: 340px;
+ bottom: 660px;
+ border-left: solid 3px white;
+ border-top: solid 3px white;
+ border-right: solid 3px white;
+ border-bottom: solid 3px white;
+}
+
+.ninthSection-thirdParagraph{
+ font-size: 15px;
+ color: white;
+ text-align: center;
+}
+
+.ninthSection-fourthParagraph{
+ font-size: 15px;
+ color: white;
+}
+
+.ninthSection-fourthParagraph p{
+ line-height: 14px;
+}
+
+.ninthSection-fifthParagraph{
+ font-size: 15px;
+ color: white;
+ text-align: center;
+}
+
+.ninthSection-sixthParagraph{
+ font-size: 15px;
+ color: white;
+}
+
+.ninthSection-sixthParagraph p{
+ line-height: 14px;
+}
+
+.ninthSection-fourthImg img{
+ border-radius: 50%;
+}
+
+.ninthSection-fifthImgimg{
+ border-radius: 50%;
+}
+
+.ninthSection-fourthImg::before{
+ content: '';
+ position: absolute;
+ border-left: solid 3px white;
+ border-top: solid 3px white;
+ border-right: solid 3px white;
+ border-bottom: solid 3px white;
+}
+
+.ninthSection-fifthImg::before{
+ content: '';
+ position: absolute;
+ border-left: solid 3px white;
+ border-top: solid 3px white;
+ border-right: solid 3px white;
+ border-bottom: solid 3px white;
+}
+
+.ninthSection-seventhParagraph{
+ font-size: 15px;
+ color: white;
+ text-align: center;
+}
+
+.ninthSection-eighthParagraph{
+ font-size: 15px;
+ color: white;
+}
+
+.ninth-content-text4-2 p{
+ line-height: 14px;
+}
+
+.ninthSection-ninthParagraph{
+ font-size: 15px;
+ color: white;
+ text-align: center;
+}
+
+.ninthSection-tenthParagraph{
+ font-size: 15px;
+ color: white;
+}
+
+.ninth-content-text5-2 p{
+ line-height: 14px;
+}
+*/
+
 .tenthSection {
   background-color: #EBB94D;
   width: 100%;
