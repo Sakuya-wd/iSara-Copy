@@ -1031,6 +1031,121 @@
   }
 
 
+  .seventhSection{
+    background-color: #ffffff;
+    width: 100%;
+    height: 530px;
+ }
+ 
+ .seventhSection-firstParagraph p{
+    padding: 60px 2px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    letter-spacing: 0.07em;
+ }
+ 
+ .seventhSection-firstParagraph span{
+   font-style: normal;
+   font-weight: 300;
+   font-family: "Hiragino Kaku Gothic Pro";
+   font-size: 14px;
+   line-height: 40px;
+   color: #333333;
+ }
+ 
+ .seventhSection-secondParagraph{
+   padding: 36px 2px 0px 0px;
+   font-style: normal;
+   font-weight: 300;
+   font-family: "Hiragino Kaku Gothic Pro";
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #333333;
+   letter-spacing: 0.09em;
+ }
+ 
+ .seventhSection-secondParagraph-responsive{
+   display: none;
+ }
+ 
+ .seventhSection-inner{
+  display: flex;
+  flex-direction: row;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  margin: 60px auto 0px auto;
+}
+
+.seventhSection-firstImg{
+  box-sizing: border-box;
+  width: 25%;
+  height: auto;
+  padding: 0px 0px 0px 6px;
+}
+
+.seventhSection-firstImg img{
+  width: 180px;
+  height: auto;
+}
+
+.seventhSection-secondImg{
+  box-sizing: border-box;
+  width: 25%;
+  height: auto;
+  padding: 0px 0px 0px 14px;
+}
+
+.seventhSection-secondImg img{
+  width: 180px;
+  height: auto;
+  max-height: 100%;
+}
+
+.seventhSection-thirdImg{
+  box-sizing: border-box;
+  width: 25%;
+  height: auto;
+  padding: 0px 0px 0px 21px;
+}
+
+.seventhSection-thirdImg img{
+  width: 180px;
+  height: auto;
+  max-height: 100%;
+}
+
+.seventhSection-fourthImg{
+  box-sizing: border-box;
+  width: 25%;
+  height: auto;
+  padding: 0px 0px 0px 29px;
+}
+
+.seventhSection-fourthImg img{
+  width: 180px;
+  height: auto;
+  max-height: 100%;
+}
+ 
+ .seventhSection-thirdParagraph p{
+   padding: 53px 1px 0px 0px;
+   font-style: normal;
+   font-weight: 600;
+   font-family: "Hiragino Kaku Gothic Pro";
+   font-size: 14px;
+   line-height: 22px;
+   text-align: center;
+   color: #333333;
+   letter-spacing: 0.1em;
+ }
+
+
   .tenthSection {
     background-color: #EBB94D;
     width: 100%;
