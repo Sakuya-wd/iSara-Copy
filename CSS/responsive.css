@@ -243,7 +243,7 @@
   .headerContact a {
     background-color: #DA6B64;
     border-radius: 30px;
-    padding: 15px 40px 15px 39px;
+    padding: 15px 40px 13px 38px;
     font-style: normal;
     font-weight: 300;
     font-family: "Hiragino Kaku Gothic Pro";
@@ -3416,7 +3416,7 @@
   .headerLogo-headerTitle-responsive img {
     display: block;
     width: 90px;
-    height: 28px;
+    height: 31px;
     padding: 0px 0px 0px 10px;
   }
 
@@ -3432,7 +3432,7 @@
     display: block;
     background-color: #DA6B64;
     width: 75px;
-    height: 63px;
+    height: 60px;
     margin-left: auto;
     text-align: center;
   }
@@ -3442,12 +3442,12 @@
     margin: 0 auto;
     width: 20px;
     height: 25px;
-    padding: 8px 2px 0px 0px;
+    padding: 10px 2px 0px 0px;
   }
 
   .headerContact-responsive a {
     display: block;
-    padding: 1px 2px 0px 0px;
+    padding: 0px 2px 0px 0px;
     font-style: normal;
     font-weight: 400;
     font-family: "Hiragino Kaku Gothic Pro";
