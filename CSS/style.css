@@ -108,13 +108,13 @@
   background-image: url("../image/main.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center 55%;
   width: 100%;
-  height: 500px;
+  height: 488px;
 }
 
 .firstSection-firstParagraph p {
-  padding: 93px 0px 0px 0px;
+  padding: 84px 0px 0px 1px;
   font-style: normal;
   font-weight: 600;
   font-family: "Hiragino Kaku Gothic Pro";
@@ -126,7 +126,7 @@
 }
 
 .firstSection-secondParagraph p {
-  padding: 10px 0px 0px 0px;
+  padding: 6px 0px 0px 1px;
   font-style: normal;
   font-weight: 600;
   font-family: "Hiragino Kaku Gothic Pro";
@@ -142,11 +142,11 @@
   width: 319px;
   height: 110px;
   margin: auto;
-  padding: 10px 0px 0px 1px;
+  padding: 7px 0px 0px 2px;
 }
 
 .firstSection-thirdParagraph p {
-  padding: 41px 0px 0px 0px;
+  padding: 40px 0px 0px 2px;
   font-style: normal;
   font-weight: 600;
   font-family: "Hiragino Kaku Gothic Pro";
@@ -158,6 +158,7 @@
 }
 
 .firstSection-fourthParagraph p {
+  padding: 0px 0px 0px 2px;
   font-style: normal;
   font-weight: 600;
   font-family: "Hiragino Kaku Gothic Pro";
@@ -1097,124 +1098,272 @@
  letter-spacing: 0.09em;
 }
 
-/*
+
 .eighthSection{
   background-color: #FEF5E0;
   width: 100%;
-  height: 1100px;
+  height: 902px;
+  padding: 40px 0px 40px 0px
 }
 
 .eighthSection-firstParagraph{
-  font-size: 21px;
+    width: 860px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+}
+
+.eighthSection-firstParagraph p{
+    padding: 18px 6px 12px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 20px;
+    line-height: 40px;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.07em;
 }
 
 .eighthSection-firstParagraph span{
-  font-size: 30px;
-  font-weight: bold;
+    padding: 0px 0px 0px 6px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 0.05em;
 }
 
-.eighthSection-firstParagraph::before, .eighthSection-firstParagraph::after{
+.eighthSection-firstParagraph ::before{
   position: absolute;
-   content: '';
+  content: '';
+  left: 0px;
+  top: 0px;
+  border-left: solid 4px #EBB94D;
+  border-top: solid 4px #EBB94D;
+  width: 45px;
+  height: 45px;
 }
 
-.eighthSection-firstParagraph::before{
- border-left: solid 4px #EBB94D;
- border-top: solid 4px #EBB94D;
- width: 40px;
- height: 40px;
+.eighthSection-firstParagraph ::after{
+  position: absolute;
+  content: '';
+  right: 0px;
+  bottom: 0px;
+  border-right: solid 4px #EBB94D;
+  border-bottom: solid 4px #EBB94D;
+  width: 45px;
+  height: 45px;
 }
 
-.eighthSection-firstParagraph::after{
- border-right: solid 4px #EBB94D;
- border-bottom: solid 4px #EBB94D;
- width: 40px;
- height: 40px;
+.eighthSection-firstInner{
+  display: flex;
+  flex-direction: row;
+  width: 1140px;
+  height: 360px;
+  margin: 40px auto 0px auto;
+ }
+
+.eighthSection-firstList{
+  width: 380px;
 }
 
-.eighthSection-firstImg{
-
+.eighthSection-firstImg {
+  text-align: left;
+  height: 180px;
 }
 
-.eighthSection-secondImg{
-
+.eighthSection-firstImg img{
+  width: 360px;
+  height: 180px;
+  object-fit: cover;
 }
 
-.eighthSection-thirdImg{
+ .eighthSection-secondParagraph p{
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 40px;
+  color: #EBB94D;
+  text-align: left;
+  letter-spacing: 0.07em;
+ }
 
+ .eighthSection-thirdParagraph p{
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 15px;
+  line-height: 23px;
+  color: #333333;
+  text-align: left;
+  letter-spacing: 0.17em;
+ }
+
+ .eighthSection-secondList{
+  width: 380px;
 }
 
-.eighthSection-secondParagraph{
- color: #EBB94D;
- font-size: 20px;
- font-weight: bold;
+.eighthSection-secondImg {
+  text-align: center;
+  height: 180px;
 }
 
-.eighthSection-thirdParagraph{
- color: #EBB94D;
- font-size: 20px;
- font-weight: bold;
+.eighthSection-secondImg img{
+  width: 360px;
+  height: 180px;
+  object-fit: cover;
 }
 
-.eighthSection-fourthParagraph{
- color: #EBB94D;
- font-size: 20px;
- font-weight: bold;
+ .eighthSection-fourthParagraph p{
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 40px;
+  color: #EBB94D;
+  text-align: left;
+  letter-spacing: 0.07em;
+ }
+ 
+ .eighthSection-fifthParagraph p{
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 15px;
+  line-height: 23px;
+  color: #333333;
+  text-align: left;
+  letter-spacing: 0.17em;
+ }
+
+ .eighthSection-fifthParagraph span{
+   letter-spacing: 0.13em;
+ }
+
+ .eighthSection-thirdList{
+  width: 380px;
 }
 
-.eighthSection-fifthParagraph{
- font-size: 15px;
+.eighthSection-thirdImg {
+  text-align: right;
+  height: 180px;
 }
 
-.eighthSection-sixthParagraph{
- font-size: 15px;
+.eighthSection-thirdImg img{
+  width: 360px;
+  height: 180px;
+  object-fit: cover;
 }
 
-.eighthSection-seventhParagraph{
- font-size: 15px;
+ .eighthSection-sixthParagraph p{
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px 0px 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 20px;
+  line-height: 40px;
+  color: #EBB94D;
+  text-align: left;
+  letter-spacing: 0.07em;
+ }
+ 
+ .eighthSection-seventhParagraph p{
+  margin: 2px 0px 0px 0px;
+  padding: 0px 0px 0px 21px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 15px;
+  line-height: 23px;
+  color: #333333;
+  text-align: left;
+  letter-spacing: 0.16em;
+ }
+
+ .eighthSection-seventhParagraph span{
+  letter-spacing: 0.14em;
+ }
+
+
+.eighthSection-secondInner{
+  position: relative;
+  background-color: #FFFFFF;
+  width: 1166px;
+  height: 247px;
+  margin: 50px auto 0px auto;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 2px #EBB94D;
 }
 
-.eighthSection-list{
- background-color: white;
- width: 300px;
- height: 200px;
- padding: 0px 0px 20px 0px;
+
+.eighthSection-eighthParagraph p{
+  margin: 48px 0px 0px 1px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 27px;
+  line-height: 23px;
+  color: #EBB94D;
+  text-align: center;
+  letter-spacing: 0.10em;
 }
 
-.eighthSection-list::before{
- position: absolute;
- content: '';
- border-left: solid 2px #EBB94D;
- border-top: solid 2px #EBB94D;
- border-right: solid 2px #EBB94D;
- border-bottom: solid 2px #EBB94D;
- border-radius: 5px;
+.eighthSection-ninthParagraph p{
+  margin: 21px 1px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 21px;
+  line-height: 23px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
-.eighthSection-eighthParagraph{
- color: #EBB94D;
- font-size: 25px;
- font-weight: bold;
- text-align: center;
+.eighthSection-tenthParagraph p{
+  margin: 12px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 16px;
+  line-height: 23px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.09em;
 }
 
-.eighthSection-ninthParagraph{
- font-size: 20px;
- font-weight: bold;
- text-align: center;
+.eighthSection-eleventhParagraph p{
+  margin: 40px 0px 0px 0px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.11em;
 }
 
-.eighthSection-tenthParagraph{
- font-size: 16px;
- font-weight: bold;
- text-align: center;
+.eighthSection-eleventhParagraph span{
+  letter-spacing: 0.1em;
 }
 
-.eighthSection-eleventhParagraph{
- font-size: 14px;
- text-align: center;
-}
-*/
+
 
 /*
 .ninthSection{

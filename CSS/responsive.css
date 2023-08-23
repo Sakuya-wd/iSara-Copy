@@ -214,6 +214,14 @@
 }
 
 
+/* widthが1195px以下の表示 */
+@media (max-width: 1195px) {
+
+
+
+}
+
+
 /* widthが1190px以下の表示 */
 @media (max-width: 1190px) {
 
